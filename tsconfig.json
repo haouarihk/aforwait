@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "module": "ES2020",
+        "target": "ESNext",
+        "outDir": "lib",
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "rootDir": "src",
+        "lib": [
+            "ES2015",
+            "dom"
+        ]
+    },
+    "include": [
+        "src",
+        "d"
+    ],
+}

@@ -1,0 +1,22 @@
+{
+  "name": "aforwait",
+  "version": "1.0.1",
+  "description": "",
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "tsc & node ./lib/test.js",
+    "build": "tsc",
+    "pub": "tsc & npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.1.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  }
+}
