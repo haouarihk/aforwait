@@ -15,7 +15,8 @@ soo.. you the code will promise he would wait as much as you want (even for infi
 # Here is how you use it:
 
 ```ts
-import aforwait, {
+const {
+    afor,
     aforSec,
     aforMin,
     aforInfinit,
@@ -23,17 +24,16 @@ import aforwait, {
     aforHours,
     aforYears,
     aforDecades
-} from "awaitfor"
+} = require("./lib/index");
 
 
 (async () => {
 
     console.log("i'm gonna wait 5 seconds and then tell you yee")
-    await aforwait(5000) // await aforSec(5);
+    await afor(5000) // await aforSec(5);
     console.log("yee")
 
 })()
-
 ```
 
 

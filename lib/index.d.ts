@@ -2,7 +2,7 @@
  *
  * @param time The Waiting time in ms.
  */
-export default function afor(time: number): Promise<void>;
+export declare function afor(time: number): Promise<void>;
 /**
  *
  * @param time The Waiting time in Minutes.
