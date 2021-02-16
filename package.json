@@ -1,12 +1,12 @@
 {
   "name": "aforwait",
-  "version": "1.0.2",
-  "description": "",
-  "type": "module",
+  "version": "1.1.0",
+  "description": "awaiting but for specific amout of time",
+  "type": "commonjs",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "test": "tsc & node ./lib/test.js",
+    "test": "tsc & node ./test.js",
     "build": "tsc",
     "pub": "tsc & npm publish"
   },

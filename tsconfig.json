@@ -2,8 +2,8 @@
     "compilerOptions": {
         "esModuleInterop": true,
         "moduleResolution": "node",
-        "module": "CommonJS",
-        "target": "ES6",
+        "module": "None",
+        "target": "ESNext",
         "outDir": "lib",
         "declaration": true,
         "allowSyntheticDefaultImports": true,
