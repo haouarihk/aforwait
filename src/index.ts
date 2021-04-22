@@ -5,7 +5,7 @@ const ms = 1
  * 
  * @param time The Waiting time in ms.
  */
-export function afor(time: number): Promise<void> {
+export default function afor(time: number): Promise<void> {
     return new Promise((solve) => {
         globalThis.setTimeout(solve, time * ms);
     })
