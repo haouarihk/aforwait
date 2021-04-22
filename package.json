@@ -1,24 +1,26 @@
 {
   "name": "aforwait",
-  "version": "1.1.11",
+  "version": "1.2.0",
   "description": "awaiting but for specific amout of time",
   "type": "commonjs",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "test": "tsc & node ./test.js",
+    "test": "npm run build & node tests/test.js & ts-node-dev tests/test.ts",
     "build": "tsc",
     "pub": "tsc & npm publish"
   },
   "keywords": [
     "aforwait",
     "afor",
+    "wait",
     "await",
     "promise"
   ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ts-node-dev": "*",
     "typescript": "*"
   },
   "publishConfig": {

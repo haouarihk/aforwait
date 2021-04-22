@@ -1,5 +1,4 @@
 const {
-    afor,
     aforSec,
     aforMin,
     aforInfinit,
@@ -7,13 +6,13 @@ const {
     aforHours,
     aforYears,
     aforDecades
-} = require("./lib/index");
+} = require("..");
 
 
 (async () => {
 
     console.log("i'm gonna wait 5 seconds and then tell you yee")
-    await afor(5000) // await aforSec(5);
+    await aforSec(5)
     console.log("yee")
 
 })()

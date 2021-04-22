@@ -16,7 +16,6 @@ soo.. you the code will promise he would wait as much as you want (even for infi
 
 ```js
 const {
-    afor,
     aforSec,
     aforMin,
     aforInfinit,
@@ -38,7 +37,6 @@ const {
 
 ```ts
 import {
-    afor,
     aforSec,
     aforMin,
     aforInfinit,
